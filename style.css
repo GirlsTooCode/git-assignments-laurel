@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image:url("images/images\ \(8\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    border-collapse: collapse;
+    border-radius: 10px; 
+
+}
+#name{
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    padding: 7px;
+}
+#fname{
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    padding: 7px;
+    font-weight: bold;
+}
+#lname{
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    padding: 7px;
+    font-weight: bold;
+}
+#ph{
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    padding: 7px;
+    font-weight: bold;
+
+}
+#DOB{
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    padding: 7px;
+    font-weight: bold;
+}
+#email{
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    padding: 7px;
+    font-weight: bold;
+}
+
+
+
+    
+#male{ 
+    display: inline;
+}
+#female{
+    display: inline;
+}
+
+#select{
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    padding: 10px;
+}
+
+#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style:italic;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+}
+
+
+
+
+
