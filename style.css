@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image:url(images/images\ \(11\).jpg);
+    background-image:url(images/images\ \(8\).jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
@@ -15,13 +15,12 @@ h1{
 }
 
 form{
-    color:black;
-    font-size: 18px;
-    font-family: sans-serif;
+    color:white;
+    font-size: 20px;
+    font-family: myraid pro;
     font-style: italic;
     font-weight: bold;
     border-collapse: collapse;
-    border:5px solid white;
 
 
 }
