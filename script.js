@@ -1,8 +1,9 @@
 //*  question 1....loop//
 //* making a loop from 0-7*//
-
-for(let i=0;i <=7; i++){
-    console.log(i);
+var content='';
+for(var i=0;i < 7; i++){
+    content = content + '#';
+    console.log(content);
 }
 
 
@@ -36,28 +37,21 @@ console.log(num);
 //* question 3...creating a string representing 8>8 grid forming a chessboard*//
 //* declaring of size and  an empty "board string"*//
 
-var size =8;
-var grid ="";
-//outerloops for rows*//
-for (var row = 1; row <=size; row++){
-
-
-    //*inner columns for loop*//
-    for (var column = 1; column <=size; column++){
-if (column%2 !=0);{//check if column is even
-    grid +=" ";
-}         
- {// if col is odd
-grid +="#";
+let size = 8;
+let board = "";
+for (let y = 0; y < size; y++) {
+  for (let x = 0; x < size; x++) {
+    if ((x + y) % 2 == 0) {
+      board += " ";
+    } else {
+      board += "#";
+    }
+  }
+  board += "\n";
 }
-    } 
-    grid+="\n";//jump to next row
-}
-console.log(grid);
-
+console.log(board);
 
 }
-
 
 
 //* question 4*//
@@ -94,25 +88,7 @@ console.log(isEven(-1)); // false
 
 
 
-//*question 6*//
-var countBs = function(str) {
-    return str.match(/B/g).length;
-};
 
-var countChar = function(str, character) {
-    var matchExp = new RegExp(character, 'g');
-    return str.match(matchExp).length;
-};
-
-//the old fashioned way
-var countChar2 = function(str, character) {
-    var count = 0;
-    for (var i = 0; i < str.length; i++) {
-        if (str[i] === character)
-            count++;
-    }
-    return count;
-};
 
 
 
